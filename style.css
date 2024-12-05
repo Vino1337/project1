@@ -1,0 +1,21 @@
+body,* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.container {
+    background-color: pink;
+    border: 2px solid green;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    padding: 20px;
+    background-color: aqua;
+    color: white;
+    
+}
