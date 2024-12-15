@@ -1,0 +1,83 @@
+body,* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+}
+button {
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.container {
+    background-color: pink;
+    border: 2px solid green;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px ;
+}
+header {
+    padding: 20px;
+    background-color: aqua;
+    color: white;
+    text-align: center; 
+}
+.promo-left {
+    text-align: left;
+    background-color: aquamarine;
+    display: inline-block;
+    height: 500px;
+    width: 250px;
+    margin-top: 20px;
+}
+.promo-left h1 {
+    text-align: center;
+    margin-top: 250px
+}
+.promo-right {
+    background-color: brown;
+    display: inline-block;
+    width: 630px;
+    margin-left: 20px;
+    
+}
+.promo-right button {
+    border: 1px solid white;
+    margin-right: -10px;
+    padding: 10px 10px;
+    width: 80px;
+    font-size: 10px;
+}
+.promo-right button:first-child {
+border-radius: 20px 0 0 20px;
+}
+.promo-right button:last-child {
+border-radius: 0 20px 20px 0 ;
+}
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 10px 10px 200px 80px;
+}
+.promo-right h1 {
+    text-align: center;
+}
+.promo-right table {
+    
+    border-spacing: 20px;
+}
+.promo-right td {
+    width: 190px;
+    height: 175px;
+    background-color: white;
+}
+footer {
+    padding: 20px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    margin-top: 20px;      
+}
